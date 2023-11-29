@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(162, 161, 161);
+}
+
+form {
+    color: rgb(255, 153, 0);
+}
+
+h1 {
+    color: rgb(255, 153, 0);
+}
+
+#video-bg {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+/* Media Query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightgray; /* Change background color for smaller screens */
+    }
+
+    form {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+}

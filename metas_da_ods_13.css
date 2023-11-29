@@ -1,0 +1,72 @@
+/* Default styling for all screen sizes */
+* {
+    font-size: 30px;
+}
+
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.artigo1 {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.image-container img {
+    width: 50%;
+    height: 600px;
+    width: 600px;
+}
+
+p {
+    color: #f2f2f2;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 20px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+}
